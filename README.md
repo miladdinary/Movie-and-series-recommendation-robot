@@ -1,5 +1,5 @@
 # 🎬 Telegram Movie & Series Bot (Cloudflare Workers)
-A Telegram bot for movies & series powered by **Cloudflare Workers** — lets users browse genres, view random picks, and search titles using the **TMDB API**.  
+A Telegram bot for movies & series powered by **Cloudflare Workers** lets users browse genres, view random picks, and search titles using the **TMDB API**.  
 Includes Persian translations, cast info, ratings, genres, runtime, country, and release date.  
 
 ### ✨ Features
@@ -15,26 +15,6 @@ Includes Persian translations, cast info, ratings, genres, runtime, country, and
 - **Telegram Bot API**
 - **TMDB API**
 - **Google Translate (unofficial endpoint)**
-
-### 🚀 Deployment
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<USERNAME>/telegram-movie-bot.git
-   cd telegram-movie-bot
-2. **Install Wrangler (Cloudflare CLI)**
-   ```bash
-   npm install -g wrangler
-3. **Set Secrets in Cloudflare**
-   ```bash
-   wrangler secret put TELEGRAM_BOT_TOKEN
-   wrangler secret put TMDB_BEARER_TOKEN
-   wrangler secret put WEBHOOK_URL
-4. **wrangler publish**
-   ```bash
-   wrangler publish
-5. **Set Telegram Webhook**
-   ```bash
-   https://<your-worker-url>/setWebhook
 ---
 
 یک ربات تلگرام برای پیشنهاد فیلم و سریال که بر بستر **Cloudflare Workers** ساخته شده است.  
@@ -48,10 +28,3 @@ Includes Persian translations, cast info, ratings, genres, runtime, country, and
 - ترجمه فارسی توضیحات (Google Translate API)  
 - نمایش بازیگران، امتیاز، مدت زمان، ژانر و ...  
 - استقرار بدون سرور روی Cloudflare Workers  
-
-### 🛠 تکنولوژی‌ها
-- **Cloudflare Workers** (JavaScript)
-- **Telegram Bot API**
-- **TMDB API**
-- **Google Translate (unofficial endpoint)**
-
