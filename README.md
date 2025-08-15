@@ -24,3 +24,18 @@ Fully **serverless**, fast, and easy to deploy with secure token management via 
    ```bash
    git clone https://github.com/<USERNAME>/telegram-movie-bot.git
    cd telegram-movie-bot
+2. **Install Wrangler (Cloudflare CLI)**
+   ```bash
+   npm install -g wrangler
+3. **Set Secrets in Cloudflare**
+   ```bash
+   wrangler secret put TELEGRAM_BOT_TOKEN
+   wrangler secret put TMDB_BEARER_TOKEN
+   wrangler secret put WEBHOOK_URL
+4. **wrangler publish**
+   ```bash
+   wrangler publish
+5. **Set Telegram Webhook**
+   ```bash
+   https://<your-worker-url>/setWebhook
+
