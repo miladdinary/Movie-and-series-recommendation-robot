@@ -1,7 +1,6 @@
 # 🎬 Telegram Movie & Series Bot (Cloudflare Workers)
 A Telegram bot for movies & series powered by **Cloudflare Workers** — lets users browse genres, view random picks, and search titles using the **TMDB API**.  
 Includes Persian translations, cast info, ratings, genres, runtime, country, and release date.  
-Fully **serverless**, fast, and easy to deploy with secure token management via **Cloudflare Secrets**.
 
 ### ✨ Features
 - Browse movies & series by genre  
@@ -40,8 +39,7 @@ Fully **serverless**, fast, and easy to deploy with secure token management via 
 
 یک ربات تلگرام برای پیشنهاد فیلم و سریال که بر بستر **Cloudflare Workers** ساخته شده است.  
 کاربران می‌توانند ژانرها را مرور کنند، پیشنهادهای تصادفی دریافت کنند و با استفاده از **API سایت TMDB** فیلم یا سریال مورد نظر خود را جستجو کنند.  
-این ربات دارای ترجمه فارسی توضیحات، نمایش بازیگران، امتیاز، ژانر، مدت زمان و اطلاعات انتشار است.  
-به‌صورت کاملاً **بدون سرور (Serverless)** اجرا می‌شود و از **Secrets** در Cloudflare برای مدیریت امن توکن‌ها استفاده می‌کند.
+این ربات دارای ترجمه فارسی توضیحات، نمایش بازیگران، امتیاز، ژانر، مدت زمان و اطلاعات انتشار است.
 
 ### ✨ امکانات
 - مرور فیلم و سریال بر اساس ژانر  
